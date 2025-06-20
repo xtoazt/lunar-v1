@@ -33,8 +33,8 @@ importers:
         specifier: ^2.1.7
         version: 2.1.7
       '@mercuryworkshop/libcurl-transport':
-        specifier: ^1.4.0
-        version: 1.4.0
+        specifier: ^1.5.0
+        version: 1.5.0
       '@mercuryworkshop/wisp-js':
         specifier: ^0.3.3
         version: 0.3.3
@@ -659,8 +659,8 @@ packages:
   '@mercuryworkshop/bare-mux@2.1.7':
     resolution: {integrity: sha512-BUamyc7jsIFbWQVVWjVjaD+Wot77EPwolkrbP3UuIs6QeHR1RY52+IR2fq3GkRAbOOrAZNT7EgZSsupkh1NowQ==}
 
-  '@mercuryworkshop/libcurl-transport@1.4.0':
-    resolution: {integrity: sha512-Mm3cnaty3bRneKARCHtoiAEJ5vl2nI0QQzhu+L6wiKQAT9hvORYWS7BIJnB/U3EKNG/JSzPQF8D0fEN83aY/Mg==}
+  '@mercuryworkshop/libcurl-transport@1.5.0':
+    resolution: {integrity: sha512-FV3fFjJYoojmkolMESmZnWosz/tQ9AbVQurt6gcJX69BTvAXzjWf6ganpaeSvilQXVK59PDWyYT3gE0aShd12A==}
 
   '@mercuryworkshop/wisp-js@0.3.3':
     resolution: {integrity: sha512-egc9jbBmNqPXGOkvOOG142SLaBL3jBkz0IGnhYYWOnmg5FeC6KfGSRU5xlk+dKYecE3tuH03bFNi3/vBAOoJKA==}
@@ -1682,8 +1682,8 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
 
-  libcurl.js@0.7.0:
-    resolution: {integrity: sha512-lhwNH8GbLDy6ss3DOkEOlkV7i3TUHNmb7s8lBMzDUfN4Z5DuKEk7KBN1bqp4Riw+iZSYWgMTCzU8uoF5jYBITA==}
+  libcurl.js@0.7.1:
+    resolution: {integrity: sha512-0wZSgCj0wqc3n/W8Lrsagm5E5FXEj41hvQF6bp5o4m3kutxAV2XRHuhudvVOwKxMJqRb4VlHxuUhQvkFAVUwQw==}
 
   lie@3.1.1:
     resolution: {integrity: sha512-RiNhHysUjhrDQntfYSfY4MU24coXXdEOgw9WGcKHNeEwffDYbF//u87M1EWaMGzuFoSbqW0C9C6lEEhDOAswfw==}
@@ -3473,9 +3473,9 @@ snapshots:
 
   '@mercuryworkshop/bare-mux@2.1.7': {}
 
-  '@mercuryworkshop/libcurl-transport@1.4.0':
+  '@mercuryworkshop/libcurl-transport@1.5.0':
     dependencies:
-      libcurl.js: 0.7.0
+      libcurl.js: 0.7.1
 
   '@mercuryworkshop/wisp-js@0.3.3':
     dependencies:
@@ -4686,7 +4686,7 @@ snapshots:
 
   kleur@4.1.5: {}
 
-  libcurl.js@0.7.0: {}
+  libcurl.js@0.7.1: {}
 
   lie@3.1.1:
     dependencies:
